@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="TemperatureConverter">
+        <h1>Centigrade to Farenhight converter</h1>
+        <form onsubmit="TempConverter(event)">
+            Inter the Temperature : <input type="number" id="celsius" required>
+            <h2 id="resultTC"></h2>
+        </form>
+    </div>
+    <div class="MarlaConverter">
+        <h1>Marla to square feet converter</h1>
+        <form onsubmit="MarlaConverter(event)">
+            Inter Marla's Value : <input type="number" id="marla" required>
+            <h2 id= "resultMC"></h2>
+        </form>
+    </div>
+    <div class="yardConverter">
+        <h1>Yard to square feet converter</h1>
+        <form onsubmit="yardConverter(event)">
+            Inter Yard's Value : <input type="number" id="yard" required>
+            <h2 id="resultYC"></h2>
+        </form>
+    </div>
+
+    <script src="./script.mjs"></script>
+
+</body>
+</html>
