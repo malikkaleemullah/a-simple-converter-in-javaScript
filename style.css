@@ -1,0 +1,40 @@
+body {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIkR_eJeAIjSxzuPKiy1XoLK-Ftwy5pb28T1-AXxpDmQ&s);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: #18232A;
+}
+.mainContainer {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    height: 35rem;
+    margin-left: 30%;
+    justify-content: space-around;
+    /* From https://css.glass */
+background: rgba(255, 255, 255, 0.1);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(7.8px);
+-webkit-backdrop-filter: blur(7.8px);
+border: 1px solid rgba(255, 255, 255, 0.22);
+}
+/* CSS */
+input[type="number"] {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 10px;
+    /* Add more styles as needed */
+}
+
+input[type="number"]:focus {
+    outline: none;
+    border-color: #007bff; /* Change the border color when the input is focused */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Add a subtle box shadow when the input is focused */
+}
+h1:hover {
+    font-weight: 900;
+}

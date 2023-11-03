@@ -2,7 +2,7 @@ function TempConverter(event) {
     event.preventDefault()
     let celsius = document.querySelector("#celsius").value
     const fahrenheit = (celsius * 9/5) + 32;
-    let message = `the faranhite for ${celsius} is ${fahrenheit}`
+    let message = `the Fahrenheit for ${celsius} is ${fahrenheit}`
     document.querySelector("#resultTC").innerHTML = message
 }
 
